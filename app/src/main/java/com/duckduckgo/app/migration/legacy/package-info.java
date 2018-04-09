@@ -14,13 +14,9 @@
  * limitations under the License.
  */
 
-
 /**
- * @deprecated
- *
- * DO NOT USE THE CODE IN THIS PACKAGE.
- *
- * The code in this package is derived from the Search and Stories application for the purpose of
- *  migration.
+ * @deprecated DO NOT USE THE CODE IN THIS PACKAGE.
+ *     <p>The code in this package is derived from the Search and Stories application for the
+ *     purpose of migration.
  */
 package com.duckduckgo.app.migration.legacy;

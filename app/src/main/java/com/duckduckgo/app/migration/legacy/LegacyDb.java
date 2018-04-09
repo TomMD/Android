@@ -218,6 +218,7 @@ public class LegacyDb implements Closeable {
                     contentValues.put(LegacyDbContracts.SAVED_SEARCH_TABLE.COLUMN_QUERY, query);
                     db.insert(LegacyDbContracts.SAVED_SEARCH_TABLE.TABLE_NAME, null, contentValues);
                 }
+                c.close();
                 // *****************************
 
                 // ***** saved feed items *****
